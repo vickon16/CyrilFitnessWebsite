@@ -1,0 +1,14 @@
+export { default as Hero } from "./Hero";
+export { default as Header } from "./Header";
+export { default as Slider } from "./Slider";
+export { default as HightLightText } from "./HightLightText";
+export { default as Figures } from "./Figures";
+export { default as ButtonsGroup } from "./ButtonsGroup";
+export { default as Programs } from "./Programs";
+export { default as ProgramsCategory } from "./ProgramsCategory";
+export { default as Reasons } from "./Reasons";
+export { default as Plans } from "./Plans";
+export { default as PlansCard } from "./PlansCard";
+export { default as Testimonials } from "./Testimonials";
+export { default as Join } from "./Join";
+export { default as Footer } from "./Footer";

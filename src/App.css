@@ -1,0 +1,25 @@
+
+.plan:nth-child(2) {
+  background: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 480px) {
+  .plan:nth-child(2) {
+    transform: none;
+  }
+}
+
+.plan:nth-child(2) > svg {
+  fill : white;
+}
+
+/* rgba(253, 120, 43, 0.68) */
+
+.blur {
+  background: rgba(220, 109, 24, 0.7);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(200px);
+  z-index: -9;
+}
